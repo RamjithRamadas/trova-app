@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.navbar-container {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menuIcon {
+  font-size: 2rem;
+  background: none;
+  color: #000;
+}
+
+.navbar-menuIcon:hover {
+  color: #008ab8;
+}
+
+.navbar-menuClose {
+  margin-left: 2em;
+  font-size: 2rem;
+  background: none;
+  color: #000;
+}
+
+.navbar-menuClose:hover {
+  color: #008ab8;
+}
+
+.navbar-menu {
+  background-color: #fff;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.navbar-menu.active {
+  left: 0;
+  transition: 350ms;
+  z-index: 1;
+}
+
+.navbar-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.navbar-text a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.navbar-text a:hover {
+  color: #008ab8;
+}
+
+.navbar-menuItems {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.navbar-toggleItems {
+  margin-left: 16px;
+}

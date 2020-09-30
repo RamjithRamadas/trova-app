@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.MuiStepper-root {
+  display: flex;
+  padding: 0;
+}
+.payment-container {
+  width: 100%;
+  height: 570px;
+  background-color: #fff;
+  border: 1px solid #c9bcbc;
+  box-shadow: 1px 1px 3px;
+  margin: 25px;
+}
+
+.first-session {
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-sessionLeft {
+  line-height: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.first-sessionLeft h4 {
+  color: #d16800;
+  letter-spacing: 1px;
+}
+
+.first-sessionLeft p {
+  color: #888888;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.second-session {
+  margin: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-sessionLeft {
+  display: flex;
+  line-height: 20px;
+}
+
+.second-sessionLeftInfo {
+  padding-left: 15px;
+}
+
+.second-sessionLeftInfo h4 {
+  color: #008ab8;
+  letter-spacing: 0.5px;
+}
+
+.second-sessionLeftInfo p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.second-sessionRight {
+  display: flex;
+}
+
+.second-sessionRightInfo {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.second-sessionRightInfo h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.payment-sessionPrice h5 {
+  color: #d16800;
+  letter-spacing: 1px;
+}
+
+.payment-containerTitle h5 {
+  color: #888888;
+  letter-spacing: 0.5px;
+}
+
+.payment-timeLoc {
+  padding-top: 15px;
+}
+
+.payment-timeDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-location {
+  display: flex;
+  padding-top: 30px;
+}
+
+.payment-location h5 {
+  color: #008ab8;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.third-session {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.right-button {
+  background-color: "#008AB8";
+}
+
+.last-session {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
